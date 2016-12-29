@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ORMVA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="addressIP_Port">http://192.168.43.253:8386</string>
+    <string name="title_activity_rating">RatingActivity</string>
+    <string name="title_activity_code_abarre">CodeABarre</string>
+    <string name="title_activity_accueil">Accueil</string>
+
+</resources>

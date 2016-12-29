@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="93e0a35ba58c025f8e4a269258010d6c111d2d18">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_89d2ca59036c2c63a888cf8e26e69297885d5a4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_990465baf1321ea1bc44f9439fe2c96a15cfd115\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_ac4ccec38be71aec5f59eceefb3a65e736a67dfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.4_2900126e75da566a3cc56c56489f5c99cf9b3982\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2458a2f79fc102016ee59094abf6704fdf997de2">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_13c8d553d48fc97aed2ae29e68e208989bfd74cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_a12a4ae6ee4638e60dae2727d98fd34c5a6e2bba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\zakaria\AndroidStudioProjects\ormva\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_1250cfd3985f2daba0d954a5af7e54fc477dc91e\classes.dex" />
+    </item>
+
+</items>

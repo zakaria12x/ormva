@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Inventaire" />
+
+    <LinearLayout
+        android:id="@+id/layout_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/txt_comment_db"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Service :   "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808080" />
+
+        <Spinner
+            android:id="@+id/my_spinner"
+            style="@style/Panellist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2C781"
+            android:layout_weight="0.76" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bureau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_service"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dip"
+            android:text="Bureau :   "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808080" />
+
+        <Spinner
+            android:id="@+id/my_spinner_bur"
+            style="@style/Panellist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:background="#F2C781" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_liste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_bureau"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/my_spinner_bur"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Immobilisations"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808080" />
+
+        <ListView
+            android:id="@android:id/list"
+            style="@style/Panellist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3" >
+
+        </ListView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Office Régional de Mise en Valeur Agricole du Souss Massa"
+        android:textColor="#22A5DE"
+        android:textSize="12sp" />
+
+</RelativeLayout>

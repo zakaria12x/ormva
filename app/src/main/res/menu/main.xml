@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/desconnect"
+        android:icon="@drawable/icon"
+        android:orderInCategory="100"
+        android:title="Déconnexion">
+    </item>
+
+</menu>
